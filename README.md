@@ -8,7 +8,7 @@ IES Celia Viñas (Almería) - 2020/2021
 
 # Repositorio del proyecto
 
-- [https://github.com/adrianrcc/iaw_jekyll](https://github.com/adrianrcc/iaw_jekyll)
+- [https://github.com/adrianrcc/iaw_mkdocs](https://github.com/adrianrcc/iaw_mkdocs)
 
 # Práctica: Creación de blogs con Mkdocs y GitHub Pages
 
