@@ -99,6 +99,8 @@ Una vez iniciado el contenedor podemos acceder a la URL **http://localhost:8000*
 
 Ahora podemos editar nuestros archivos Markdown y ver cómo se va generando el sitio web de forma inmediata.
 
+![](https://raw.githubusercontent.com/adrianrcc/iaw_mkdocs/main/images/Captura%20de%20pantalla%202021-06-03%20215011.png)
+
 ### Comando: build
 
 También es posible generar directamente el sitio web sin tener que iniciar un servidor local de desarrollo. Para generar el sitio web automáticamente podemos ejecutar el siguiente comando:
