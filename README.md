@@ -125,10 +125,18 @@ Debemos ir a "Settings">"Pages" y seleccionar como "Source" el nuevo branch "gh-
 
 ![](https://raw.githubusercontent.com/adrianrcc/iaw_mkdocs/main/images/Captura%20de%20pantalla%202021-06-04%20182951.png)
 
+### Usar un dominio propio
+
+Es posible utilizar un dominio propio para alojar nuestro sitio. Para ello, en "Settings">"Pages">"Custom domain" debemos indicar el nombre de nuestro dominio:
+
+![]()
+
 ## Sitio 
 
-https://adrianrcc.github.io/adrianrcc/
+https://adrianramirez.tk/
 
 ## Fuentes
 
 - https://josejuansanchez.org/iaw/practica-mkdocs/index.html
+- https://richpauloo.github.io/2019-11-17-Linking-a-Custom-Domain-to-Github-Pages/
+
