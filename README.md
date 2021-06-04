@@ -119,6 +119,14 @@ Es posible publicar la el sitio web en GitHub Pages con el siguiente comando:
 docker run --rm -it -v ~/.ssh:/root/.ssh -v "$PWD":/docs squidfunk/mkdocs-material gh-deploy
 ~~~
 
+Esto creará un branch llamado "gh-pages" con el contenido de nuestro sitio.
+
+### Configurar GitHub Pages
+
+Debemos ir a "Settings">"Pages" y seleccionar como "Source" el nuevo branch "gh-pages" y el directorio "/docs". También podríamos alojarlo en la raíz de este branch o incluso en el main, en un directorio "/docs" o en la raíz, según nos convenga.
+
+
+
 ## Sitio 
 
 https://adrianrcc.github.io/adrianrcc/
