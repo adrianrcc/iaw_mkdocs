@@ -129,7 +129,28 @@ Debemos ir a "Settings">"Pages" y seleccionar como "Source" el nuevo branch "gh-
 
 Es posible utilizar un dominio propio para alojar nuestro sitio. Para ello, en "Settings">"Pages">"Custom domain" debemos indicar el nombre de nuestro dominio:
 
-![]()
+![](https://raw.githubusercontent.com/adrianrcc/iaw_mkdocs/main/images/Captura%20de%20pantalla%202021-06-04%20202816.png)
+
+## Configurar DNS
+
+Debemos configurar nuestros DNS añadiendo 4 registros tipo A para "@" o vacíos que apunten a las direcciones IP de GitHub:
+
+~~~
+185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153
+~~~
+
+Y un registro CNAME "www" que apunte a la url de nuestro repositorio (username.github.io).
+
+Tras esto, debemos esperar a que se propaguen los DNS y que se active el certificado para que tengamos TLS:
+
+![](https://raw.githubusercontent.com/adrianrcc/iaw_mkdocs/main/images/Captura%20de%20pantalla%202021-06-04%20202831.png)
+
+Luego podremos habilitar https en nuestro sitio:
+
+![](https://raw.githubusercontent.com/adrianrcc/iaw_mkdocs/main/images/Captura%20de%20pantalla%202021-06-04%20202906.png)
 
 ## Sitio 
 
