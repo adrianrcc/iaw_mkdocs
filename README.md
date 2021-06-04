@@ -119,19 +119,19 @@ docker run --rm -it -v ~/.ssh:/root/.ssh -v "$PWD":/docs squidfunk/mkdocs-materi
 
 Esto creará un branch llamado **"gh-pages"** con el contenido de nuestro sitio.
 
-### Configurar GitHub Pages
+## Configurar GitHub Pages
 
 Debemos ir a "Settings">"Pages" y seleccionar como "Source" el nuevo branch "gh-pages" y el directorio "/docs". También podríamos alojarlo en la raíz de este branch o incluso en el main, ya sea en un directorio "/docs" o en la raíz, según nos convenga.
 
 ![](https://raw.githubusercontent.com/adrianrcc/iaw_mkdocs/main/images/Captura%20de%20pantalla%202021-06-04%20182951.png)
 
-### Usar un dominio propio
+## Usar un dominio propio
 
 Es posible utilizar un dominio propio para alojar nuestro sitio. Para ello, en "Settings">"Pages">"Custom domain" debemos indicar el nombre de nuestro dominio:
 
 ![](https://raw.githubusercontent.com/adrianrcc/iaw_mkdocs/main/images/Captura%20de%20pantalla%202021-06-04%20202816.png)
 
-## Configurar DNS
+### Configurar DNS
 
 Debemos configurar nuestros DNS añadiendo 4 registros tipo A para "@" o vacíos que apunten a las direcciones IP de GitHub:
 
@@ -151,6 +151,10 @@ Tras esto, debemos esperar a que se propaguen los DNS y que se active el certifi
 Luego podremos habilitar https en nuestro sitio:
 
 ![](https://raw.githubusercontent.com/adrianrcc/iaw_mkdocs/main/images/Captura%20de%20pantalla%202021-06-04%20202906.png)
+
+A partir de ahora se podrá entrar en nuestro sitio web usando el nombre de dominio que hemos configurado:
+
+![](https://raw.githubusercontent.com/adrianrcc/iaw_mkdocs/main/images/Captura%20de%20pantalla%202021-06-04%20204518.png)
 
 ## Sitio 
 
