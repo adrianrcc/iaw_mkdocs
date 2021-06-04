@@ -56,7 +56,7 @@ En primer lugar vamos a situarnos en el directorio donde queremos crear nuestro 
 Para crear la estructura de archivos del proyecto MkDocs podemos hacer uso del comando new, como se muestra en el siguiente ejemplo.
 
 ~~~
-docker run --rm -it -p 8000:8000 -v "$PWD":/docs squidfunk/mkdocs-material new proyecto-mkdocs
+docker run --rm -it -p 8000:8000 -v "$PWD":/docs squidfunk/mkdocs-material new .
 ~~~
 
 **Nota: Vamos a crear el contenedor desde el directorio principal el proyecto porque necesitamos crear un volumen de tipo bind mount entre nuestra máquina y el contenedor Docker.**
@@ -118,6 +118,10 @@ Es posible publicar la el sitio web en GitHub Pages con el siguiente comando:
 ~~~
 docker run --rm -it -v ~/.ssh:/root/.ssh -v "$PWD":/docs squidfunk/mkdocs-material gh-deploy
 ~~~
+
+## Sitio 
+
+https://adrianrcc.github.io/adrianrcc/
 
 ## Fuentes
 
