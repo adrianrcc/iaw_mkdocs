@@ -123,9 +123,9 @@ Esto creará un branch llamado "gh-pages" con el contenido de nuestro sitio.
 
 ### Configurar GitHub Pages
 
-Debemos ir a "Settings">"Pages" y seleccionar como "Source" el nuevo branch "gh-pages" y el directorio "/docs". También podríamos alojarlo en la raíz de este branch o incluso en el main, en un directorio "/docs" o en la raíz, según nos convenga.
+Debemos ir a "Settings">"Pages" y seleccionar como "Source" el nuevo branch "gh-pages" y el directorio "/docs". También podríamos alojarlo en la raíz de este branch o incluso en el main, ya sea en un directorio "/docs" o en la raíz, según nos convenga.
 
-
+![](https://raw.githubusercontent.com/adrianrcc/iaw_mkdocs/main/images/Captura%20de%20pantalla%202021-06-04%20182951.png)
 
 ## Sitio 
 
