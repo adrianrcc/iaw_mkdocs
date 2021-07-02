@@ -1,16 +1,4 @@
-# Implantación de Aplicaciones Web - Práctica Mkdocs
-
-Adrián Ramírez-Cruzado Carmona
-
-2º CFGS Admón. de Sistemas Informáticos en Red
-
-IES Celia Viñas (Almería) - 2020/2021
-
-# Repositorio del proyecto
-
-- [https://github.com/adrianrcc/iaw_mkdocs](https://github.com/adrianrcc/iaw_mkdocs)
-
-# Práctica: Creación de blogs con Mkdocs y GitHub Pages
+# Creación de blogs con Mkdocs y GitHub Pages
 
 MkDocs es un generador de sitios web estáticos que nos permite crear de forma sencilla un sitio web para documentar un proyecto. El contenido del sitio web está escrito en texto plano en formato Markdown y se configura con un único archivo de configuración en formato YAML.
 
